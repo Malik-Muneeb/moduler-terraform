@@ -1,0 +1,5 @@
+Encrypt data at rest 
+It should use company KMS managed key
+Encryption 
+Centralized logging to security only location
+Classify sensitivity of data regardless of encryption
