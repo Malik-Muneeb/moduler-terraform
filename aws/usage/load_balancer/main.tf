@@ -6,4 +6,8 @@ module "lb" {
   
   # Security Groups
   sg_id = var.sg_id
+
+  # Attributes
+  alb_access_logs_bucket_name = var.alb_access_logs_bucket_name
+  elb_account_id = var.elb_account_id
 }

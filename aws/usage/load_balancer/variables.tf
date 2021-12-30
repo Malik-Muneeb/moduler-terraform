@@ -12,3 +12,13 @@ variable "sg_id" {
     type = string
     description = "Security group for Load Balancer"
 }
+
+variable "alb_access_logs_bucket_name" {
+    type = string
+    description = "Bucket for ALB logging"
+}
+
+variable "elb_account_id" {
+    type = string
+    description = "LB account ID according to region in which LB exists"
+}
